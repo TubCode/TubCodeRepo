@@ -7,6 +7,6 @@ namespace AspNetHaack.DemoWeb.App_Start {
     public static class FormsAuthenticationConfig {
         public static void Register() {
             DynamicModuleUtility.RegisterModule(typeof(SuppressFormsAuthenticationRedirectModule));
-        }
+        }as
     }
 }
